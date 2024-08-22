@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+.form-container {
+  max-width: 400px; /* Adjust width as needed */
+  margin: 0 auto;  /* Center the container */
+}
+
+.main-menu-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height to center vertically */
+}
+
+.container {
+  max-width: 600px; /* Control the max width of the container */
+  margin: auto; /* Center the container horizontally */
+}
+
+.form-box {
+  text-align: center;
+  background-color: #f8f9fa; /* Light background for the form box */
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Space above the form box */
+  margin: 0 auto;
+}
+
+.order-list {
+  text-align: center;
+  background-color: #f8f9fa; /* Light background for the form box */
+  /* padding: 20px; */
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Space above the form box */
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary button color */
+  border: none;
+}
+
+.btn-group {
+  margin-bottom: 20px; /* Add spacing below the button group */
+}
+
+.list-group-item {
+  border-radius: 5px; /* Optional rounded corners for buttons */
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* App.css or a dedicated CSS file for styling */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.btn-group-vertical .btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px; /* Add margin between buttons */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.btn-white {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.text-black {
+  color: black;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.mt-4 {
+  margin-top: 1.5rem; /* Adjust spacing as needed */
+}
+
+.main-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center vertically */
+}
+
+.product-description {
+  height: 100px; /* Adjust this value to fit your design */
+  overflow: hidden; /* Ensures that any text that overflows is hidden */
+  text-overflow: ellipsis; /* Adds "..." to indicate text overflow */
+}
+
+.card-img-top {
+  width: 50%;
+  height: 200px;         /* Fixed height for the image container */
+  object-fit: cover;   /* Ensures the entire image fits within the box */
+  background-color: #fff; /* Background color to fill empty space */
+  padding: 10px;         /* Optional: Adds padding around the image */
+}
+
+.hey {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 8px; /* Padding inside the card */
+  margin: 8px; /* Margin outside the card */
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition on hover */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.menu-btn {
+  background-color: rgb(207, 195, 195); /* White background */
+  color: black; /* Black text */
+  border: 2px solid #ddd; /* Optional: Add a border for better visibility */
+  padding: 10px; /* Adjust padding for better size */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  text-align: center;
+}
+
+.menu-btn:hover {
+  background-color: #f1f1f1; /* Slightly darker white on hover */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
